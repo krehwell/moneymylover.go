@@ -60,16 +60,16 @@ else. Wise rows always keep the rupiah figure.
 | e-money / ovo top up, airport ride, bus | `a. Transport Grab/Gojek` | `topup ovo 100k`, `topup e-money`, `ke bandara`, `kereta bandara - duri` | |
 | flight | `1. Basic (primary)` | `tiket pesawat FROM - TO airline [d/m] [hh.mm][, extra]`, airport codes (BTJ, CGK, HLP, SUB, KUL, DPS, JHB, SIN), trip context last | `tiket pesawat BTJ - HLP super air jet 7/11 08.00, 1 dewasa 10kg` |
 | baggage | `1. Basic (primary)` | `bagasi pesawat FROM - TO [context]` | `bagasi pesawat DPS - KUL maybank marathon` |
-| train (incl. woosh, airport train) | `1. Basic (primary)` | `tiket kereta from - to operator [d/m] [hh.mm][, extra]`, stations lowercase as on the ticket | `tiket kereta pasar senen - surabaya pasarturi 11/10, Rp379.5k` |
+| train (incl. woosh, airport train) | `1. Basic (primary)` | `tiket kereta from - to operator [d/m] [hh.mm][, extra]`, stations lowercase as on the ticket | `tiket kereta api jakarta pasar senen - surabaya pasarturi 11/10, Rp379.5k` |
 | lodging (hotel, guesthouse, airbnb, short kos) | `1. Basic (primary)` | `penginapan city place d/m - d/m[, extra]`, on wise add `total Rp... - Rp.../day` | `penginapan surabaya homey guesthouse gubeng 25/2 - 4/3` |
 | monthly kos, rent, electricity | `d. Rent fee` | `kos name[, extra]`, `listrik[ kos name]` | `kos daris nakost` |
-| groceries, cake or food for home | `1. Basic (primary)` | `#shop item, item` or `kue rumah #shop` | `#mako kue rumah 24k, selai jam coklat tropikana 112k` |
-| for family, friends, weddings, zakat | `b. Gifts & Donations` | who or what | `sindi nikah`, `nasi rumah #kutaraja` |
+| groceries, cake or food for home | `1. Basic (primary)` | `#shop item, item` or `#shop kue rumah` | `#mako kue rumah 24k, selai jam coklat tropikana 112k` |
+| for family, friends, weddings, zakat | `b. Gifts & Donations` | who or what | `sindi nikah`, `#kutaraja nasi rumah` |
 | clothes, gadgets, books, luggage | `b. Personal Items` | item + brand/color | `celana adidas biru`, `koper baller + aksesoris` |
 | software, licenses, subscriptions (wise) | `b. Personal Items` | product + term | `proton vpn 24 months` |
 | haircut, skincare, perfume, toiletries | `e. Makeup` | `pankas[ #place]`, product | `pankas #pik`, `sunscreen labore` |
 | laundry, shoe wash | `b. Londri` | empty or `londri[ #place][ 2.6kg]`, `cuci sepatu[ 2x]` | `londri #heyclean, 2x tas, 2x sepatu` |
-| doctor, medicine, massage | `f. Medical Check-up` | what + where | `tht #harbun`, `#bugarrefleksi 1jam 30menit` |
+| doctor, medicine, massage | `f. Medical Check-up` | what + where | `#harbun tht`, `#bugarrefleksi 1jam 30menit` |
 | padel, run events, sports gear | `c. Fitness/Sports` | `padel venue`, item | `padel cgd airdome` |
 | fuel | `c. Gas Bill` | empty or `stylo pertalite fulltank` | |
 | data plan, wifi | `d. Balance/Internet Bill` | `55gb 5G`, `myrepublic wifi` | |
