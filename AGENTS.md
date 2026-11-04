@@ -131,6 +131,14 @@ scrape the web app and do not ask him for a CSV export.
   `run: moneylover login`.
 - Never print the token file or env values in a reply.
 
+## Where it runs
+
+Repo: github.com/krehwell/moneymylover.go (private). Mac checkout in
+`~/Documents/personal/moneymylover`, VPS clone in `~/personal/moneylover`
+(Hermes runs it there). Ship a change: commit, push, then on the VPS
+`cd ~/personal/moneylover && git pull && go build -o moneylover .`.
+The token file is per machine and never in git.
+
 ## Files
 
 - `main.go` - CLI, flag parsing, name matching, output
